@@ -26,7 +26,7 @@ SECRET_KEY = '^lf18+_@2$6$dr8kftldyvw5!s()p^0yr65@4&*dq(hru)rtt0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ptmailer.herokuapp.com']
 
 
 # Application definition

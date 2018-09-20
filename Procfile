@@ -1,1 +1,3 @@
-web: gunicorn api.api:app
+web: gunicorn ptmail_app.wsgi --log-file -
+
+ 

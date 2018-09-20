@@ -24,4 +24,4 @@ def send_simple_message():
               "subject": "Hello",
               "text": fname + ' ' +lname + ' sent a message. They say '+ msg})
     return "<h1>Email Sent</h1>"
-app.run()
+app.run(port=8000)
